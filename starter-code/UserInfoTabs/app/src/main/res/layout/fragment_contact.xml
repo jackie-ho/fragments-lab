@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ly.generalassemb.drewmahrt.userinfotabs.ContactFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(800)800-9000" />
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email:jackieho67@gmail.com"/>
+    <TextView
+        android:id="@+id/linkedin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="http://www.linkedin.com/in/jackieho2"/>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ly.generalassemb.drewmahrt.userinfotabs.DetailFragment">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: Jackie Ho" />
+    <TextView
+        android:id="@+id/detail1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Currently: A student in the GA ADI program"/>
+    <TextView
+        android:id="@+id/detail2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Graduated From Rutgers with BS in chemical engineering"/>
+    <TextView
+        android:id="@+id/detail3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I am 26 years old"/>
+
+</LinearLayout>

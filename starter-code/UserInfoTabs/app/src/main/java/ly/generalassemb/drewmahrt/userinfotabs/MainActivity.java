@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.addTab(tabLayout.newTab().setText("Picture"));
         tabLayout.addTab(tabLayout.newTab().setText("About Me"));
         tabLayout.addTab(tabLayout.newTab().setText("Contact"));
+        tabLayout.addTab(tabLayout.newTab().setText("Comic"));
+        tabLayout.addTab(tabLayout.newTab().setText("Random"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
